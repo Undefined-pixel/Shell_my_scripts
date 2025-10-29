@@ -1,3 +1,6 @@
+#!/bin/sh
+set -e
+
 brew install azure-cli icu4c@77 lpeg readline \
   bat jq luajit reattach-to-user-namespace \
   blueutil libevent luv ripgrep \
@@ -18,4 +21,7 @@ brew install azure-cli icu4c@77 lpeg readline \
 brew install zed 
 brew install iterm2 
 brew install kitty 
+#brew install --cask nikitabobko/tap/aerospace
+brew install --cask caffeine
+
 
