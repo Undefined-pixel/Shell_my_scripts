@@ -1,4 +1,7 @@
 #!/bin/sh
+set -xe
+
+
 set_privat(){
   mv .gitconfig .gitconfig_work
   mv .gitconfig_privat .gitconfig

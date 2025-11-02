@@ -1,4 +1,5 @@
 #!/bin/bash
+set -xe
 
 echo "VS Code Cache Cleaner"
 
