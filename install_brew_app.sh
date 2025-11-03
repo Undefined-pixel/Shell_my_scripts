@@ -1,5 +1,5 @@
 #!/bin/sh
-set -e
+set -xe
 
 brew install azure-cli icu4c@77 lpeg readline \
   bat jq luajit reattach-to-user-namespace \
@@ -18,10 +18,9 @@ brew install azure-cli icu4c@77 lpeg readline \
   gmp libuv python@3.13 yyjson \
   htop libyaml ranger zstd
 
-brew install zed 
-brew install iterm2 
-brew install kitty 
+brew install zed
+brew install iterm2
+brew install kitty
 #brew install --cask nikitabobko/tap/aerospace
 brew install --cask caffeine
-
-
+brew install python@3.10
